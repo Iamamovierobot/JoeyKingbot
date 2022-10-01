@@ -822,6 +822,7 @@ async def advantage_spell_chok(msg):
         )
     ] for k, movie in enumerate(movielist)]
     btn.append([InlineKeyboardButton(text="Close", callback_data=f'spolling#{user}#close_spellcheck')])
+    zz = await msg.reply('<b><i>Searching for your query on my database!.🧐 please Wait...⏳<i/></b>')
     await asyncio.sleep(2)
     zz1 = await zz.edit("I couldn't find anything related to that\nDid you mean any one of these?\n\nIf the series you want is the one below, click on it",                
                     reply_markup=InlineKeyboardMarkup(btn))
