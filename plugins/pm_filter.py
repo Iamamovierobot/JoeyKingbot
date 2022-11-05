@@ -421,8 +421,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Search Here 🔍', switch_inline_query_current_chat=''),
             InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/JUVENILETIDES')
             ],[
-            InlineKeyboardButton('Movie Bot🎥', url='https://t.me/+t6R7tKJZiUI1OGJk'),
-            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/+h151ndLh5ZI4NWQ0')
+            InlineKeyboardButton('Movie Channel🎥', url='https://t.me/+t6R7tKJZiUI1OGJk'),
+            InlineKeyboardButton('Adult Channel🔞', url='https://t.me/+h151ndLh5ZI4NWQ0')
             ],[
             InlineKeyboardButton('Help ⚙', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')                                       
