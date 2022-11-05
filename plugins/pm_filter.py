@@ -419,10 +419,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('Search Here 🔍', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/Lordship_series')
+            InlineKeyboardButton('Updates Channel🍿🎬', url='https://t.me/JUVENILETIDES')
             ],[
-            InlineKeyboardButton('Movie Bot🎥', url='https://t.me/Lordshipmovies'),
-            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/Adultship')
+            InlineKeyboardButton('Movie Bot🎥', url='https://t.me/+t6R7tKJZiUI1OGJk'),
+            InlineKeyboardButton('Adult Bot🔞', url='https://t.me/+h151ndLh5ZI4NWQ0')
             ],[
             InlineKeyboardButton('Help ⚙', callback_data='help'),
             InlineKeyboardButton('♻️ ᴀʙᴏᴜᴛ ♻️', callback_data='about')                                       
@@ -453,7 +453,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Updates', url='https://t.me/Lordship_series'),
+            InlineKeyboardButton('🤖 Updates', url='https://t.me/JUVENILETIDES'),
             InlineKeyboardButton('♥️ Source', callback_data='source')
         ], [
             InlineKeyboardButton('🏠 Home', callback_data='start'),
@@ -634,7 +634,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == 'reqst1':
         await query.answer("Hey Dear 😍\n\n🎯 Click On The Quality that you want below, And Start The Bot for the first time.\n\nFrom the second time, I'll will deliver the files to your PM myself.⬇️", True)
     elif query.data == 'info':
-        await query.answer("✴️ Information ✴️\n\nUse @mcrequestbot to request for movies or series that are not available here on my database\n\n❇️ Don't search for movies here!! use the movie group for that\n\nⒸ Hislordship", True)        
+        await query.answer("✴️ Information ✴️\n\nUse @series_support to request for movies or series that are not available here on my database\n\n❇️ Don't search for movies here!! use the movie group for that\n\nⒸ Hislordship", True)        
     try: await query.answer('Loading... please wait ⏳')
     except: pass
     
@@ -713,7 +713,7 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
         btn.insert(2,
-            [InlineKeyboardButton(text="🔞 JOIN OUR ADULT CHANNEL HERE",url="https://t.me/+83dNsgyhMmI4OTNk")]
+            [InlineKeyboardButton(text="🔞 JOIN OUR ADULT CHANNEL HERE",url="https://t.me/+h151ndLh5ZI4NWQ0")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
