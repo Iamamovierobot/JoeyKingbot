@@ -9,9 +9,9 @@ class script(object):
 <b>○ PLEASE DONT SPAM ME...🤒</b>
     
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
-    ABOUT_TXT = """<b>✯ CREATOR: Hislordship</b>
-<b>✯ MOVIE CHANNEL: <a href=https://t.me/+R59lJd9RGV1iNzZk>Hislordship Movies</a></b>
-<b>✯ SERIES CHANNEL: <a href=https://t.me/+14mNx7OU_BxjMTE0>LordshipTV</a></b>
+    ABOUT_TXT = """<b>✯ CREATOR: DIVINE</b>
+<b>✯ MOVIE CHANNEL: <a href=https://t.me/+t6R7tKJZiUI1OGJk>JUVENILETIDES</a></b>
+<b>✯ SERIES CHANNEL: <a href=https://t.me/+kidTZNTay4VmMWI8>JUVENILETIDESBACKUP</a></b>
 <b>✯ CREDIT: To Everyone that created this repo</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 <b>THIS BOT WAS MADE USING SO MANY REPOS!! credit I give unto them in the mighty name of Jesus, Amen!\n\n𝖲𝖮𝖴𝖱𝖢𝖤 𝖢𝖮𝖣𝖤 ~ 𝖭𝖮𝖳 𝖠𝖵𝖠𝖨𝖫𝖠𝖡𝖫𝖤 𝖱𝖨𝖦𝖧𝖳 𝖭𝖮𝖶</b>"""
