@@ -147,7 +147,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('Sorry Sweetheart, your request is not on my DataBase. First of all, Read the pinned message and follow the instructions and examples I gave there. if its still unavailable, then Use @mcrequestbot to request for it. please make sure you follow the request format there or my owner will skip your request. Thank youuu 🥰')
+            k = await query.message.edit('Sorry Sweetheart, your request is not on my DataBase. First of all, Read the pinned message and follow the instructions and examples I gave there. if its still unavailable, then Use @series_support to request for it. please make sure you follow the request format there or my owner will skip your request. Thank youuu 🥰')
             await asyncio.sleep(25)
             await k.delete()
 
@@ -385,12 +385,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("I Like Your Smartness, But Don't Be Oversmart 😒", show_alert=True)
+            await query.answer("I Like Your Smartness, But Don't Be Dude 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('Sweetie, No such file exist.')
+            return await query.answer('Hey!, No such file exist.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
@@ -628,13 +628,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
     elif query.data == 'dupe':
-        await query.answer("⚡ For better results, narrow down your search using the following examples:\n\t\t\t\t\t\t- Series Name\n\t\t\t\t\t\t- Eg: Riverdale S01\n\t\t\t\t\t\t- Eg: Ozark S02E04\n\nⒸ Hislordship", True) 
+        await query.answer("⚡ For better results, narrow down your search using the following examples:\n\t\t\t\t\t\t- Series Name\n\t\t\t\t\t\t- Eg: Riverdale S01\n\t\t\t\t\t\t- Eg: Ozark S02E04\n\nⒸ Divine", True) 
     elif query.data == 'tips':
-        await query.answer("📌 Search with the correct spelling\n\n📌 Don't include special characters like ( , + - : ' \ > &) in your search \n\nⒸ Hislordship", True)
+        await query.answer("📌 Search with the correct spelling\n\n📌 Don't include special characters like ( , + - : ' \ > &) in your search \n\nⒸ Divine", True)
     elif query.data == 'reqst1':
         await query.answer("Hey Dear 😍\n\n🎯 Click On The Quality that you want below, And Start The Bot for the first time.\n\nFrom the second time, I'll will deliver the files to your PM myself.⬇️", True)
     elif query.data == 'info':
-        await query.answer("✴️ Information ✴️\n\nUse @series_support to request for movies or series that are not available here on my database\n\n❇️ Don't search for movies here!! use the movie group for that\n\nⒸ Hislordship", True)        
+        await query.answer("✴️ Information ✴️\n\nUse @series_support to request for movies or series that are not available here on my database\n\n❇️ Don't search for movies here!! use the movie group for that\n\nⒸ Divine", True)        
     try: await query.answer('Loading... please wait ⏳')
     except: pass
     
@@ -706,7 +706,7 @@ async def auto_filter(client, msg, spoll=False):
              InlineKeyboardButton(text="NEXT ⏩", callback_data=f"next_{req}_{key}_{offset}")]
         )
         btn.insert(2,
-            [InlineKeyboardButton(text="🔞 JOIN OUR ADULT CHANNEL HERE",url="https://t.me/+83dNsgyhMmI4OTNk")]
+            [InlineKeyboardButton(text="🔞 JOIN OUR ADULT CHANNEL HERE",url="https://t.me/+h151ndLh5ZI4NWQ0")]
         )
     else:
         btn.append(
